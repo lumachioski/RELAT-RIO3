@@ -1,0 +1,15 @@
+Dependencies for Project 'Timer0A', Target 'Timer0A': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup.s)(0x5701D3C8)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 536"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x5F36C897)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x5230D554)
+I (tm4c123gh6pm.h)(0x5F2C7B91)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+F (.\main.c)(0x61AA9DF8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (PLL.h)(0x5230D554)
+I (Timer0.h)(0x5F36C6D8)
+I (tm4c123gh6pm.h)(0x5F2C7B91)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
+F (.\Timer0.c)(0x5F3AE0E9)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (tm4c123gh6pm.h)(0x5F2C7B91)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025BE2E)
